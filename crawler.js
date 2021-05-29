@@ -18,7 +18,7 @@ async function getCases(page) {
       page = page + 10
     }
 
-      //console.log('URL: ', url);
+      console.log('URL: ', url);
 
       const res = await axios({
         method: 'POST',
